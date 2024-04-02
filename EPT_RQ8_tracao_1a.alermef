@@ -1,0 +1,65 @@
+%ALERMEF_-_entrada_de_dados:EPT_tracao_Q8_1a
+%Tipo_de_estrutura
+EPT
+%Tipo_de_elemento
+EP-RQ8
+%Numero_de_nos
+18
+%Numero_de_materiais
+2
+%Numero_de_secoes_transversais
+1
+%Numero_de_elementos
+3
+%Numero_de_apoios
+3
+%Numero_elementos_carregados
+1
+%Numero_de_nos_carregados
+2
+%Coordenadas_dos_nos
+%_______X______Y
+ 1    0.00   0.00
+ 2    0.00   0.20
+ 3    0.00   0.40
+ 4    0.20   0.00
+ 5    0.20   0.40
+ 6    0.40   0.00
+ 7    0.40   0.20
+ 8    0.40   0.40
+ 9    0.60   0.00
+ 10   0.60   0.40
+ 11   0.80   0.00
+ 12   0.80   0.20
+ 13   0.80   0.40
+ 14   1.00   0.00
+ 15   1.00   0.40
+ 16   1.20   0.00
+ 17   1.20   0.20
+ 18   1.20   0.40
+%Propriedades_dos_materiais
+%_______E________Poisson________ALPHA
+1   25000000.     0.20         0.00010
+2   21000000.     0.15         0.00010
+%Propriedades_das_seções_transversais
+%_____t
+1   4.00
+%Incidencia
+%___no1__no2__no3__no4__no5__no6__no7__no8_material_seção
+1    1    6    8    3    4    7    5    2     1      1
+2    6   11   13    8    9   12   10    7     1      1
+3   11   16   18   13   14   17   15   12     2      1
+%Apoios_(r=1_impedido_r=0_livre)
+%__no__rtx_rty
+1   1   1   0
+2   2   1   1
+3   3   1   0
+%Elementos_carregados_(idsis=1_global_idsis=0_local)
+%__el___idsis___qx1____qy1____qx2____qy2____qx3____qy3____qx4____qy4
+1   3     0     0.0    0.0    3.5    0.0    0.0    0.0    0.0    0.0
+%Nos_carregados
+%__no____fx_____fy
+1  15    0.333    0.0
+2  16    1.333    0.0
+%Fim
+ 

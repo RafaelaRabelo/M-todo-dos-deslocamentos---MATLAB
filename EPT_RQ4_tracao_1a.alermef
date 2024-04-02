@@ -1,0 +1,53 @@
+%ALERMEF_-_entrada_de_dados:EPT_RQ4_tracao_1a
+%Tipo_de_estrutura
+EPT
+%Tipo_de_elemento
+EP-RQ4
+%Numero_de_nos
+8
+%Numero_de_materiais
+1
+%Numero_de_secoes_transversais
+1
+%Numero_de_elementos
+3
+%Numero_de_apoios
+2
+%Numero_elementos_carregados
+1
+%Numero_de_nos_carregados
+2
+%Coordenadas_dos_nos
+%____X_____Y
+ 1   0.00   0.00
+ 2   0.00   0.40
+ 3   0.40   0.00
+ 4   0.40   0.40
+ 5   0.80   0.00
+ 6   0.80   0.40
+ 7   1.20   0.00
+ 8   1.20   0.40
+%Propriedades_dos_materiais
+%_______E________poisson________ALPHA
+1   25000000.     0.20         0.00010
+%Propriedades_das_seções_transversais
+%_____t
+1   0.20
+%Propriedades_dos_elementos
+%___no1__no2__no3__no4_material_seção
+1    1    3    4    2     1      1
+2    3    5    6    4     1      1
+3    5    7    8    6     1      1
+%Apoios_(r=1_impedido_r=0_livre)
+%__no__rtx_rty
+1   1   1   0
+2   2   1   1
+%Elementos_carregados_(idsis=1_global_idsis=0_local)
+%__el___idsis___qx1____qy1____qx2____qy2____qx3____qy3____qx4____qy4
+1   3     0     0.0    0.0    2.0    0.0    0.0    0.0    0.0    0.0
+%Nos_carregados
+%__no____fx_____fy
+1   7    1.0    0.0
+2   8    1.0    0.0
+%Fim
+ 
