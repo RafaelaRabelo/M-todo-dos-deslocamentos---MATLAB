@@ -10,9 +10,7 @@ Utilizei a linguagem MATLAB, juntamente com bibliotecas especializadas em matem�
 É um software de análise estrutural amplamente utilizado que permite aos engenheiros modelar e analisar estruturas de maneira eficiente. Ele oferece uma variedade de ferramentas e recursos para realizar análises estáticas e dinâmicas de sistemas estruturais complexos. O funcionamento baseia-se principalmente nos métodos de deslocamento na análise estrutural. Esses métodos, também conhecidos como métodos de deslocamento ou deslocamento nodal, são técnicas numéricas que dividem uma estrutura em elementos menores, como vigas ou placas, e calculam os deslocamentos nodais em cada ponto desses elementos. Esses deslocamentos são então utilizados para determinar as deformações, tensões e outras propriedades estruturais da estrutura como um todo.
 """
 
-# Aqui você pode começar a implementar o código em Python
-# para realizar análises estruturais usando o método dos deslocamentos
-# e elementos finitos com base nas especificações do projeto.
+# Aqui você pode começar a implementar o código em Python para realizar análises estruturais usando o método dos deslocamentos e elementos finitos com base nas especificações do projeto.
 
 # Importe as bibliotecas necessárias do MATLAB
 import matlab.engine
@@ -20,8 +18,7 @@ import matlab.engine
 # Inicialize o ambiente MATLAB
 eng = matlab.engine.start_matlab()
 
-# Agora você pode começar a implementar suas funções de análise estrutural
-# e interagir com o MATLAB para calcular deslocamentos, tensões, etc.
+# Agora você pode começar a implementar suas funções de análise estrutural e interagir com o MATLAB para calcular deslocamentos, tensões, etc.
 
 # Exemplo de uso de função MATLAB para análise de estruturas
 def analisar_estrutura(matriz_de_coeficientes, vetor_de_forcas):
